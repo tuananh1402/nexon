@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NEXON - Restaurant</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<meta content="" name="keywords">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1"
+	name="viewport">
+<!-- Bootstrap CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- font awesome CSS -->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+<!-- fastresto CSS -->
+<link href="css/animated-fastresto.css" rel="stylesheet">
+<link href="css/fastresto-style.css" rel="stylesheet">
+<link href="css/queries-fastresto.css" media="all" rel="stylesheet"
+	type="text/css">
+</head>
+<body>
+	<!-- preloader -->
+	<div class="preloader">
+		<div class="mainpreloader">
+			<span></span>
+		</div>
+	</div>
+	<!-- preloader end -->
+
+	<!-- website -->
+	<div id="wraperfastresto">
+
+		<!-- section background slider -->
+		<section class="bgfastresto" aria-label="section-background">
+			<div id="bgslideshow">
+				<div class="bgfastresto">
+					<img alt="background" src="img/bg-1.jpg">
+				</div>
+				<div class="bgfastresto">
+					<img alt="background" src="img/bg-2.jpg">
+				</div>
+				<div class="bgfastresto">
+					<img alt="background" src="img/bg-3.jpg">
+				</div>
+			</div>
+			<div id="particles"></div>
+			<div class="overlay-home noselect"></div>
+		</section>
+		<!-- section background slider close -->
+
+		<!-- logo -->
+		<div id="logo" class="brand-fastresto noselect animfadeInLeft"
+			data-time="0">
+			<a href="index.html"><img alt="background" src="img/logo.png">
+			</a>
+		</div>
+
+		<!--header -->
+		<header>
+			<div id="main-menu" class="menu-init">
+				<!-- mainmenu start -->
+				<nav>
+					<ul>
+						<li class="animfadeInRight" data-time="900"><a
+							href="index.html">Home</a>
+							<ul><li><a href="index-404.html">Not Found</a></li></ul></li>
+						<li class="animfadeInRight" data-time="1000"><a href="#">Menu</a>
+							<ul>
+								<li><a href="resto.html">Menu</a></li>
+								<li><a href="resto-vertical.html">Menu 2</a></li>
+							</ul>
+						</li>
+						<li class="animfadeInRight" data-time="1200"><a
+							href="events.html">Sự kiện</a></li>
+						<li class="animfadeInRight" data-time="1300"><a
+							href="about.html">Thông tin</a></li>
+						<li class="animfadeInRight" data-time="1400"><a
+							href="contact.html">Liên hệ</a></li>
+						<li class="animfadeInRight" data-time="1500"><a
+							class="popup-form link-class" href="#reservation">Đặt chỗ</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- mainmenu end -->
+			</div>
+			<!-- navigation mobile -->
+			<div class="anim-nav" id="nav-icon">
+				<div class="menu-line"></div>
+				<div class="menu-line1"></div>
+				<div class="menu-line2"></div>
+			</div>
+			<!-- navigation mobile end -->
+		</header>
+		<!--header end -->
+
+		<!-- content home -->
+		<section class="contentfastresto noselect" aria-label="section-home">
+			<div class="row">
+				<!-- row -->
+				<div class="col-md-12">
+					<h1 class="animfadeInUpBig" data-time="1500">
+						Welcome to <span class="color">NEXON</span>
+					</h1>
+					<div id="slidertext" class="animfadeInUpBig" data-time="1800">
+						<div class="main-text">we deliver fast food</div>
+						<div class="main-text">we deliver healthy food</div>
+						<div class="main-text">we deliver fresh food</div>
+					</div>
+					<div class="devider-center animfadeInUpBig" data-time="1700"></div>
+					<div class="btn-home animfadeInLeft" data-time="2100">
+						<a class="link-class" href="about.html">Chi tiết</a>
+					</div>
+					<div class="btn-home animfadeInRight" data-time="2400">
+						<a class="popup-form link-class" href="#reservation">Đặt bàn ngay</a>
+					</div>
+				</div>
+			</div>
+			<!-- row end -->
+		</section>
+		<!-- content home end -->
+
+		<!-- reservation start -->
+		<section aria-label="section-reservation">
+			<div id="reservation"
+				class="gray-popup-block mfp-hide animbounceInDown">
+				<div class="devider-doted">
+					<div class="col-md-12 m-20px">
+						<h3 class="latin-font color">Đặt chỗ ngay</h3>
+						<div class="devider-black"></div>
+						<p>Mở cửa từ Thứ 2 - Thứ 7, from 9:00 am to 01:00 am</p>
+						<span>Phone +840 00 88 99</span>
+					</div>
+					<form action="#" class="row" id="form1" method="post" name="form1">
+						<input type="text" id="start-date" name="start"
+							placeholder="mm/dd/yyyy" /> <input id="hourbook" name="hourbook"
+							placeholder="00:00 am/pm" type="text"> <input
+							id="personbook" name="personbook" placeholder="person"
+							type="text"> <input id="name" name="name"
+							placeholder="your name" type="text"> <input id="email"
+							name="email" placeholder="your e-mail" type="text">
+						<textarea cols="50" id="message" name="message"
+							placeholder="your enquiry" rows="4"></textarea>
+						<div class="success" id="mail_success">Cảm ơn, email của bạn đã được gửi đi.</div>
+						<div class="error" id="mail_failed">Lỗi email chưa được gửi</div>
+						<button class="btn-content" id="send">BOOK NOW</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- reservation end -->
+
+		<!-- section gallery -->
+		<section aria-label="section-gallery">
+
+			<!-- toggle gallery -->
+			<div class="nav-bottom noselect">
+				<div id="opengal">
+					<i class="fa fa-angle-up"></i> <span>Special Menu</span>
+				</div>
+			</div>
+			<!-- toggle gallery end -->
+
+			<!-- gallery -->
+			<div class="bottom-option noselect">
+
+				<!-- close gallery -->
+				<div class="nav-bottom-close">
+					<span>close</span> <i class="fa fa-angle-down"></i>
+				</div>
+				<!-- close gallery end -->
+				<!-- main gallery -->
+				<div id="owl-gal" class="owl-carousel">
+
+					<div class="item">
+						<div class="port">
+							<div class="hovereffect">
+								<img class="gray-color" src="img/portofolio/1.jpg"
+									alt="imageportofolio" />
+								<div class="overlay">
+									<div class="wrap-overlay">
+										<h2>SPECIAL Nexon</h2>
+										<div class="devider-yellow"></div>
+										<span class="price">$60</span>
+									</div>
+									<a class="info big-video"
+										href="http://www.dailymotion.com/video/x4gwyxl_happiness-royalty-free-music-for-commercial-use_music">click
+										here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="port">
+							<div class="hovereffect">
+								<img class="gray-color" src="img/portofolio/2.jpg"
+									alt="imageportofolio" />
+								<div class="overlay">
+									<div class="wrap-overlay">
+										<h2>SPECIAL Nexon</h2>
+										<div class="devider-yellow"></div>
+										<span class="price">$80</span>
+									</div>
+									<a class="info detail-page"
+										href="popup-page/special-menu-1.html">click here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="port big-img">
+							<div class="hovereffect">
+								<a href="img/portofolio/3.jpg"> <img class="gray-color"
+									src="img/portofolio/3.jpg" alt="imageportofolio" />
+									<div class="overlay">
+										<div class="wrap-overlay">
+											<h2>SPECIAL Nexon</h2>
+											<div class="devider-yellow"></div>
+											<span class="price">$110</span>
+										</div>
+										<span class="info">click here</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="port big-img">
+							<div class="hovereffect">
+								<a href="img/portofolio/4.jpg"> <img class="gray-color"
+									src="img/portofolio/4.jpg" alt="imageportofolio" />
+									<div class="overlay">
+										<div class="wrap-overlay">
+											<h2>SPECIAL Nexon</h2>
+											<div class="devider-yellow"></div>
+											<span class="price">$120</span>
+										</div>
+										<span class="info">click here</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="port big-img">
+							<div class="hovereffect">
+								<a href="img/portofolio/5.jpg"> <img class="gray-color"
+									src="img/portofolio/5.jpg" alt="imageportofolio" />
+									<div class="overlay">
+										<div class="wrap-overlay">
+											<h2>SPECIAL Nexon</h2>
+											<div class="devider-yellow"></div>
+											<span class="price">$99</span>
+										</div>
+										<span class="info">click here</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="port big-img">
+							<div class="hovereffect">
+								<a href="img/portofolio/6.jpg"> <img class="gray-color"
+									src="img/portofolio/6.jpg" alt="imageportofolio" />
+									<div class="overlay">
+										<div class="wrap-overlay">
+											<h2>SPECIAL Nexon</h2>
+											<div class="devider-yellow"></div>
+											<span class="price">$115</span>
+										</div>
+										<span class="info">click here</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="port">
+							<div class="hovereffect">
+								<img class="gray-color" src="img/portofolio/7.jpg"
+									alt="imageportofolio" />
+								<div class="overlay">
+									<div class="wrap-overlay">
+										<h2>SPECIAL Nexon</h2>
+										<div class="devider-yellow"></div>
+										<span class="price">$110</span>
+									</div>
+									<a class="info detail-page"
+										href="popup-page/special-menu-1.html">click here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="port">
+							<div class="hovereffect">
+								<img class="gray-color" src="img/portofolio/8.jpg"
+									alt="imageportofolio" />
+								<div class="overlay">
+									<div class="wrap-overlay">
+										<h2>SPECIAL Nexon</h2>
+										<div class="devider-yellow"></div>
+										<span class="price">$50</span>
+									</div>
+									<a class="info big-youtube"
+										href="https://www.youtube.com/watch?v=VsJkxWvQJIM">click
+										here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- main gallery end -->
+			</div>
+			<!-- gallery end -->
+		</section>
+		<!-- section gallery end -->
+
+	</div>
+	<!-- website end -->
+
+	<!-- Plugin JS -->
+	<script src="plugin/pluginsfastresto.js" type="text/javascript"></script>
+	<script src="plugin/jquery.particleground.js" type="text/javascript"></script>
+	<!-- fastresto JS -->
+	<script src="js/fastresto.js" type="text/javascript"></script>
+</body>
+
+
+
+</html>
